@@ -1,0 +1,188 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  css
+  Copy code
+  .title {
+  margin-right: 10px;
+  font-family: 'Russo One', sans-serif;
+  }
+  
+  .icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  }
+  
+  .links {
+  display: flex;
+  }
+  
+  .link {
+  margin-right: 10px;
+  }
+  .row {
+    font-family: 'Russo One', sans-serif;
+  }
+  
+  .iconoheader {
+      width: 60px;
+      height: 60px;
+      margin-top: 0px;
+  }
+  .button {
+      padding: 8px 16px;
+      background-color: #ddd;
+      border: none;
+      border-radius: 4px;
+      text-decoration: none;
+      color: #333;
+    }
+    body {
+      background-image: url("../img/controladores-juegos-proxima-generacion-aislados_264404-402.avif");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .descript {
+        background-color: rgba(250, 250, 250, 0.5);
+        width: 7%;
+        margin-left: 50px;
+        font-size: 20px;
+        padding: 20px;
+        border-radius: 5%;
+      }
+    .imgsubcuad {
+        margin-left: 20px;
+        width: 25%;
+        display: flex;
+      }
+    .imgsub {
+        width: 250px;
+        height: 250px;
+      }
+    .column1 {
+        display: flex;
+    }
+    .descript2 {
+        background-color: rgba(250, 250, 250, 0.5);
+        width: 75%;
+        margin-right: 50px;
+        font-size: 10px;
+        padding: 20px;
+        border-radius: 5%;
+        height: 150px;
+      }
+    .videocuad {
+        width: 100%;
+        text-align: center;
+    }
+    .descriptNBA {
+        background-color: rgba(250, 250, 250, 0.5);
+        width: 8%;
+        margin-left: 50px;
+        font-size: 20px;
+        padding: 20px;
+        border-radius: 5%;
+      }
+      .descriptGTA {
+        background-color: rgba(250, 250, 250, 0.5);
+        width: 75%;
+        margin-right: 50px;
+        font-size: 10px;
+        padding: 20px;
+        border-radius: 5%;
+        height: 180px;
+      }
+      .descriptWD2 {
+            background-color: rgba(250, 250, 250, 0.5);
+            width: 75%;
+            margin-right: 50px;
+            font-size: 10px;
+            padding: 20px;
+            border-radius: 5%;
+            height: 230px;
+      }
+      .descript-WD2 {
+        background-color: rgba(250, 250, 250, 0.5);
+        width: 12%;
+        margin-left: 50px;
+        font-size: 20px;
+        padding: 20px;
+        border-radius: 5%;
+      }
+      @media (max-width: 600px) {
+        .header {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        
+        .title {
+            margin-right: 0;
+            margin-bottom: 10px;
+        }
+        
+        .icon {
+            margin-right: 0;
+            width: 0%;
+            height: 0%;
+        }
+        
+        .links {
+            flex-wrap: wrap;
+            justify-content: flex-start;
+        }
+        
+        .link {
+            margin-right: 5px;
+            margin-bottom: 5px;
+        }
+        
+        .descript {
+            width: 15%;
+            margin-left: 0;
+            text-align: center;
+            margin-left: 40%;
+        }
+        
+        .imgsubcuad {
+            margin-left: 0;
+            width: 100%;
+            justify-content: center;
+        }
+        
+        .descript2 {
+            width: 100%;
+            margin-right: 0;
+            height: auto;
+        }
+        
+        .descriptNBA {
+            width: 20%;
+            margin-left: 0;
+            text-align: center;
+            margin-left: 40%;
+        }
+        
+        .descriptGTA {
+            width: 100%;
+            margin-right: 0;
+            height: auto;
+        }
+        
+        .descriptWD2 {
+            width: 100%;
+            margin-right: 0;
+            height: auto;
+        }
+        
+        .descript-WD2 {
+            width: 25%;
+            margin-left: 0;
+            text-align: center;
+            margin-left: 40%;
+        }
+    }
